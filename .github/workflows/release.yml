@@ -19,7 +19,7 @@ jobs:
         with:
           repository: 'XTLS/Xray-core'
           submodules: 'true'
-          path: 'temp'
+          path: 'xray'
           
       - name: Setup Go
         uses: actions/setup-go@v3.5.0
