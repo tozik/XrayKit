@@ -1,10 +1,10 @@
-name: Release ${{ github.event.inputs.version }}
+name: Release ${{ github.event.inputs.version }}!!!
 
 on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Release version'     
+        description: 'Release version ${{ github.event.inputs.version }}'     
         required: true
         type: string
 
